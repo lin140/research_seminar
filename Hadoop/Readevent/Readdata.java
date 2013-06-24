@@ -220,7 +220,7 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 	        StringBuilder sb = new StringBuilder();
 	        for (double d : data) {
-	            sb.append(d).append(" ");
+	            sb.append(d).append("/t");
 	        }
 
 	        //trim the trailing space
